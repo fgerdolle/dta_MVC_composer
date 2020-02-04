@@ -2,7 +2,7 @@
 namespace dta_MVC_composer\Dao;
 use dta_MVC_composer\Domain\Product as Product;
 
-class ProductDao extends DaoBase {
+class ProductDao extends NetteDataBase {
     public function __construct($config) {
         parent::__construct($config);
     }
