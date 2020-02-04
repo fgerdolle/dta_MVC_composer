@@ -1,0 +1,19 @@
+{
+    "name": "fgerdolle/dta_mvc_composer",
+    "description": "exo sur composer",
+    "authors": [
+        {
+            "name": "Franck Gerdolle",
+            "email": "franck.gerdolle@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dta_MVC_composer\\": "classes"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "nette/database": "^3.0"
+    }
+}
